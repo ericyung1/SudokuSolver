@@ -81,7 +81,7 @@ def main():
                 value = myfont.render(str(grid[i][j]), True, element_color)
                 screen.blit(value, ((j + 1) * 50 + 18, (i + 1) * 50 + 9))
     pygame.display.update()
-
+    
     while True:
         event = pygame.event.wait()
         if event.type == pygame.KEYDOWN:

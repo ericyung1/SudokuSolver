@@ -52,7 +52,6 @@ def solveSudoku(grid, row, col):
         grid[row][col] = 0
     return False
 
-
 def main():
     pygame.init()
     screen = pygame.display.set_mode((width, width))
